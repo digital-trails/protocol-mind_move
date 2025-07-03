@@ -12,20 +12,17 @@
         }
       },
       {
-        "type": "goals",
-        "goals": [
-          {
-            "type": "steps",
-            "occurence": 2,
-            "starting": 1000,
-            "percentile": 1.1
-          },
-          {
-            "type": "calories",
-            "occurence": 1,
-            "starting": 300
-          }
-        ]
+          "type": "goals",
+          "goals": [
+            {
+              "service": "oura",
+              "type": "percentile",
+              "show-loading": true,
+              "field": "active",
+              "days": 10,
+              "percentile": .6
+            }
+          ]
       },
       {
         "type": "carousel",
