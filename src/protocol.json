@@ -110,20 +110,20 @@
       "action": "notification",
       "actions": [
         {
-          "time": "10: 00",
+          "time": "10:00",
           "path": "flow: //flows/survey1",
-          "expiry": "11: 00"
+          "expiry": "11:00"
         },
         {
-          "time": "04: 00",
-          "open": "03: 00",
-          "close": "06: 00",
-          "path": "flow: //flows/survey2",
-          "expiry": "11: 00"
+          "time": "04:00",
+          "open": "03:00",
+          "close": "06:00",
+          "path": "flow://flows/survey2",
+          "expiry": "11:00"
         },
         {
-          "time": "11: 00",
-          "path": "flow: //flows/survey3"
+          "time": "11:00",
+          "path": "flow://flows/survey3"
         }
       ]
     }
