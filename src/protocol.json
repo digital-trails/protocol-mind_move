@@ -50,7 +50,7 @@
                 "url": "/assets/020-person.png",
                 "tint": false
               },
-              "action": "https: //hdsp.co/share/681baa3bb7ef4f17b820ccf6",
+              "action": "https://hdsp.co/share/681baa3bb7ef4f17b820ccf6",
               "backgroundcolor": "#1A00E05A",
               "markcompleted": true,
               "reminder": {
@@ -65,7 +65,7 @@
                 "url": "/assets/030-yoga.png",
                 "tint": false
               },
-              "action": "https: //hdsp.co/share/6839e11d7419d4b1882761d7",
+              "action": "https://hdsp.co/share/6839e11d7419d4b1882761d7",
               "backgroundcolor": "#1A00C2FF",
               "markcompleted": true,
               "reminder": {
@@ -95,7 +95,7 @@
                 "url": "/assets/support.png",
                 "tint": false
               },
-              "action": "navpage: //Contact",
+              "action": "navpage://Contact",
               "backgroundcolor": "#1A00C2FF"
             }
           ]
