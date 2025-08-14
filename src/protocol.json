@@ -112,7 +112,7 @@
       "content": {
         "path": "https://hdsp.co/share/6839e11d7419d4b1882761d7",
         "prompt": "We noticed you haven’t completed Sports|Rehab Course in the past couple of days. Please try to fit one in today—just click the mindfulness tile in the app. If you’re having trouble accessing it, let us know so we can help.",
-        "threshold": "2.00:00:00",
+        "threshold": "00:01:00",
         "type": "click"
       }
     },
@@ -123,12 +123,12 @@
       "content": {
         "path": "https://api.ouraring.com/v2/usercollection",
         "service": "Oura",
-        "android-sync": "deeplink://Oura://",
-        "ios-sync": "deeplink://com.ouraring.oura",
+        "android-sync": "deeplink://com.ouraring.oura",
+        "ios-sync": "deeplink://Oura://",
         "endpoints": [
           {
             "endpoint": "daily_activity",
-            "prompt": "Just a reminder to wear your tracker throughout the day so we can capture your full activity.",
+            "prompt": "Hi! We’ve noticed your tracker hasn’t recorded much data over the past two days. Please try to wear it as much as possible—ideally all day. If it’s not working or you’re having trouble, let us know so we can help.",
             "writeDatum": true,
             "time_window_days": 1,
             "aggregation": "sum",
