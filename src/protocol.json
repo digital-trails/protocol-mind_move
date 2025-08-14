@@ -20,6 +20,8 @@
               "service": "Oura",
               "requires-auth": true,
               "endpoint": "https://api.ouraring.com/v2/usercollection/daily_activity",
+              "android-sync": "deeplink://com.ouraring.oura",
+              "ios-sync": "deeplink://Oura://",
               "type": "percentile",
               "show-loading": true,
               "field": "active",
@@ -125,8 +127,6 @@
       "content": {
         "path": "https://api.ouraring.com/v2/usercollection",
         "service": "Oura",
-        "android-sync": "deeplink://com.ouraring.oura",
-        "ios-sync": "deeplink://Oura://",
         "endpoints": [
           {
             "endpoint": "daily_activity",
