@@ -116,7 +116,7 @@
       "content": {
         "path": "https://hdsp.co/share/6839e11d7419d4b1882761d7",
         "prompt": "We noticed you haven’t completed Sports|Rehab Course in the past couple of days. Please try to fit one in today—just click the mindfulness tile in the app. If you’re having trouble accessing it, let us know so we can help.",
-        "threshold": "00:05:00",
+        "threshold": "2.00:00:00",
         "type": "click"
       }
     },
