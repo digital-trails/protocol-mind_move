@@ -18,6 +18,8 @@
           "goals": [
             {
               "service": "Oura",
+              "requires-auth": true,
+              "endpoint": "https://api.ouraring.com/v2/usercollection/daily_activity",
               "type": "percentile",
               "show-loading": true,
               "field": "active",
