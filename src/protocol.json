@@ -41,7 +41,7 @@
               },
               "action": "https://hdsp.co/share/681b905c676f43eaa24fb490",
               "backgroundcolor": "#1A206AFF",
-              "markcompleted": true
+              "markcompletedonclick": true
             },
             {
               "text": "Sports|Recovery Course",
@@ -51,7 +51,7 @@
               },
               "action": "https://hdsp.co/share/681baa3bb7ef4f17b820ccf6",
               "backgroundcolor": "#1A00E05A",
-              "markcompleted": true
+              "markcompletedonclick": true
             },
             {
               "text": "Sports|Rehab Course",
@@ -61,7 +61,7 @@
               },
               "action": "https://hdsp.co/share/6839e11d7419d4b1882761d7",
               "backgroundcolor": "#1A00C2FF",
-              "markcompleted": true
+              "markcompletedonclick": true
             }
           ]
         },
@@ -96,26 +96,12 @@
     {
       "type": "Reminder",
       "content": {
-        "path": "https://hdsp.co/share/681b905c676f43eaa24fb490",
-        "prompt": "We noticed you haven’t completed Meditation Basics in the past couple of days. Please try to fit one in today—just click the mindfulness tile in the app. If you’re having trouble accessing it, let us know so we can help.",
-        "threshold": "2.00:00:00",
-        "type": "click"
-      }
-    },
-    {
-      "type": "Reminder",
-      "content": {
-        "path": "https://hdsp.co/share/681baa3bb7ef4f17b820ccf6",
-        "prompt": "We noticed you haven’t completed Sports|Recovery Course in the past couple of days. Please try to fit one in today—just click the mindfulness tile in the app. If you’re having trouble accessing it, let us know so we can help.",
-        "threshold": "2.00:00:00",
-        "type": "click"
-      }
-    },
-    {
-      "type": "Reminder",
-      "content": {
-        "path": "https://hdsp.co/share/6839e11d7419d4b1882761d7",
-        "prompt": "We noticed you haven’t completed Sports|Rehab Course in the past couple of days. Please try to fit one in today—just click the mindfulness tile in the app. If you’re having trouble accessing it, let us know so we can help.",
+        "paths": [
+          "https://hdsp.co/share/681b905c676f43eaa24fb490",
+          "https://hdsp.co/share/681baa3bb7ef4f17b820ccf6",
+          "https://hdsp.co/share/6839e11d7419d4b1882761d7"
+        ],
+        "prompt": "We noticed you haven’t completed a mindfulness session in the past couple of days. Please try to fit one in today—just click the mindfulness tile in the app. If you’re having trouble accessing it, let us know so we can help.",
         "threshold": "2.00:00:00",
         "type": "click"
       }
